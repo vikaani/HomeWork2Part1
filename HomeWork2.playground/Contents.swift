@@ -156,16 +156,29 @@ print("\nРозділ 1.3 Псевдоніми\n")
 
  */
 
+// Вирішення завдання 1.3
+
+typealias Pressure = Int
+typealias Humidity = Int
+typealias Celsius = Int
+
+var pressure: Pressure = 1020
+var humidity: Humidity = 50
+var celsius: Celsius = 18
+
 print("Погода вчора:")
-print("Тиск: hPa")
-print("Вологість: %")
-print("Температура: C")
+print("Тиск: \(pressure) hPa")
+print("Вологість: \(humidity) %")
+print("Температура: \(celsius) C")
+
+pressure = 1050
+humidity = 70
+celsius = 22
 
 print("\nПогода сьогодні:")
-print("Тиск: hPa")
-print("Вологість: %")
-print("Температура: C")
-
+print("Тиск: \(pressure) hPa")
+print("Вологість: \(humidity) %")
+print("Температура: \(celsius) C")
 
 print("\nРозділ 1.4 Кортежі\n")
 
