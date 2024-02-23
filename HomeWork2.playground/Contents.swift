@@ -88,22 +88,34 @@ print("\nРозділ 1.2 Змінні\n")
 
  */
 
-print("Інформація за 2018 р.:")
-print("Ім'я: ")
-print("Прізвище: ")
-print("Вік: ")
-print("зріст: см")
-print("Вага: кг")
-print("У шлюбі: ")
+// Вирішення завдання 1.2
+
+var userName: String = "Dmytro"
+var userSurname: String = "Kregyl"
+var userAge: Int = 25
+var userHeight: Double = 1.85
+var userWeight: Int = 75
+var userStatus: Bool = false
+
+print("\nІнформація за 2018 р.:")
+print("Ім'я: \(userName)")
+print("Прізвище: \(userSurname)")
+print("Вік: \(userAge)")
+print("Зріст: \(userHeight) см")
+print("Вага: \(userWeight) кг")
+print("У шлюбі: \(userStatus)")
+
+userAge = 30
+userWeight = 85
+userStatus = false
 
 print("\nІнформація за поточний рік:")
-print("Ім'я: ")
-print("Прізвище: ")
-print("Вік: ")
-print("зріст: см")
-print("Вага: кг")
-print("У шлюбі: ")
-
+print("\nІм'я: \(userName)")
+print("\nПрізвище: \(userSurname)")
+print("\nВік: \(userAge)")
+print("\nЗріст: \(userHeight) см")
+print("\nВага: \(userWeight) кг")
+print("\nУ шлюбі: \(userStatus)")
 
 print("\nРозділ 1.3 Псевдоніми\n")
 
