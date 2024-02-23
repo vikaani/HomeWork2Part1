@@ -213,17 +213,27 @@ print("\nРозділ 1.4 Кортежі\n")
 
  */
 
-print("Прізвище: ")
-print("Вік: ")
-print("Зріст: см")
-print("Вага: кг")
-print("У шлюбі: ")
+// Вирішення завдання 1.4
+
+var profileInfo = (firstName: userName, lastName: userSurname, age: userAge, height: userHeight, weight: userWeight, status: userStatus)
+profileInfo.height = 90
+profileInfo.age = 35
+
+var weatherInfo = (humidity, celsius, pressure)
+weatherInfo.1 = 25
+
+print("\nІнфорація профіля: ")
+print("Ім'я: \(profileInfo.firstName)")
+print("Прізвище: \(profileInfo.lastName)")
+print("Вік: \(profileInfo.age)")
+print("Зріст: \(profileInfo.height) см")
+print("Вага: \(profileInfo.weight) кг")
+print("У шлюбі: \(profileInfo.status)")
 
 print("\nІнфорація про погоду:")
-print("Тиск: hPa")
-print("Вологість: %")
-print("Температура: C")
-
+print("Тиск: \(weatherInfo.2) hPa")
+print("Вологість: \(weatherInfo.0) %")
+print("Температура: \(weatherInfo.1) C")
 
 print("\nРозділ 1.5 Опціонали\n")
 
