@@ -250,6 +250,12 @@ print("\nРозділ 1.5 Опціонали\n")
 
  */
 
-print("Користувач авторизован: ")
+// Вирішення завдання 1.5
 
-print("Користувач авторизован: ")
+var userLoggedIn: Bool?
+
+print("Користувач авторизований: \(userLoggedIn == false)")
+
+userLoggedIn = true
+
+print("Користувач авторизований: \(userLoggedIn ?? true)")
